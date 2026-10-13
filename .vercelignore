@@ -1,0 +1,4 @@
+# Development-only folders — never deployed to the live site
+_stitch_extract/
+_tools/
+vibe_images/

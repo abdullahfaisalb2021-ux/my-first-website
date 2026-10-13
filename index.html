@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GAMEZONE — The Cybernetic Esports Arena</title>
+  <meta name="description" content="GAMEZONE is the cybernetic esports arena: instant browser arcade, sanctioned tournaments, a 1,450-title combat catalog and a global competitive ladder.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Utility strip -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__group">
+        <span>Global Arena Network</span>
+        <span class="topbar__dot">•</span>
+        <span>Node #07 Active</span>
+        <span class="topbar__dot">•</span>
+        <span>Tickrate: 128.4 Hz</span>
+        <span class="topbar__dot">•</span>
+        <span>Servers: FRA / ICN / IWA</span>
+      </div>
+      <div class="topbar__group topbar__group--hide-sm">
+        <span>Season 04 Finals Reputation: +480 XP Boosted</span>
+        <span class="topbar__dot">•</span>
+        <span class="topbar__live">Spectator Sync: Online</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <path d="M16 2.5 28 9.25v13.5L16 29.5 4 22.75V9.25Z" stroke="#00F0FF" stroke-width="1.6"/>
+          <path d="M16 8.5 22.5 12.25v7.5L16 23.5l-6.5-3.75v-7.5Z" stroke="#8B5CF6" stroke-width="1.4"/>
+          <circle cx="16" cy="16" r="2.3" fill="#00F0FF"/>
+        </svg>
+        <span class="brand__name">Gamezone</span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <span class="live-pill"><span class="beacon" aria-hidden="true"></span>Live: VCT Masters (42.8K)</span>
+        <a class="btn btn--primary btn--sm header__cta" href="#arcade">Play Free</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="visually-hidden">Toggle navigation menu</span>
+          <svg class="nav-toggle__icon nav-toggle__icon--open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+          <svg class="nav-toggle__icon nav-toggle__icon--close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__bleed container">
+        <img class="hero__bg" src="assets/images/hero-chrono-surge.jpg" alt="" loading="eager">
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="hero__grid-overlay" aria-hidden="true"></div>
+
+        <div class="hero__content">
+          <div class="hero__badges">
+            <span class="badge badge--violet">Game of the Season</span>
+            <span class="badge badge--cyan">98% Overwhelmingly Positive</span>
+            <span class="badge">RTX On • DLSS 3.5</span>
+          </div>
+
+          <p class="mono text-dim">Unreal Engine 5.4 Architecture &nbsp;•&nbsp; Season 04 Live</p>
+
+          <h1 class="hero__title">Chrono Surge: <span class="hero__accent">Zero Point</span></h1>
+
+          <p class="hero__lead">
+            Drop into temporal fracture zones. Extract unstable quantum cores while rival squads
+            hunt your coordinates across an evolving dystopia — free to play on PC and console.
+          </p>
+
+          <div class="meta-row">
+            <span class="meta-row__item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 11h4M8 9v4M15.5 10.5h.01M17.5 12.5h.01"/><path d="M7 6h10a5 5 0 0 1 5 5v2a5 5 0 0 1-9.2 2.7L12 15l-.8.7A5 5 0 0 1 2 13v-2a5 5 0 0 1 5-5z"/></svg>
+              PC • PS5 • Xbox Series X|S
+            </span>
+            <span class="meta-row__item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.3 7 12 12l8.7-5M12 22V12"/></svg>
+              Tactical FPS / Cyberpunk Extraction
+            </span>
+            <span class="meta-row__item meta-row__live">
+              <span class="beacon" style="background: var(--cyan); box-shadow: var(--glow-cyan);" aria-hidden="true"></span>
+              Free Season 4 update available
+            </span>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#arcade">
+              Play Free Now
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--secondary" href="#titles">Explore Combat Titles</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tournaments -->
+    <section class="section" id="tournaments">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Competitive Schedule</p>
+            <h2>Featured Tournament Matrix</h2>
+            <p class="section-head__lead">
+              Register your squad or solo-queue into sanctioned ladders. Instant automated
+              brackets and payout escrow.
+            </p>
+          </div>
+        </div>
+
+        <div class="tournament-banner">
+          <img src="assets/images/tournament-arena.jpg" alt="A packed esports arena during a championship final, lit by cyan and violet stage lights" loading="lazy">
+          <div class="tournament-banner__scrim" aria-hidden="true"></div>
+          <div class="tournament-banner__content">
+            <div>
+              <span class="badge badge--live"><span class="beacon" aria-hidden="true"></span>Live Now</span>
+              <h3>VCT Masters — Grand Championship Finals</h3>
+              <p class="mono text-dim">Cyanstrike Masters Playoffs • $350,000 Champion Bounty</p>
+            </div>
+            <a class="btn btn--ghost btn--sm" href="https://www.twitch.tv/" target="_blank" rel="noopener">
+              Watch Live Stream
+              <span class="visually-hidden">(opens in a new tab)</span>
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4 11 13"/><path d="M18 14v5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19V8a1.5 1.5 0 0 1 1.5-1.5H10"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="t-grid">
+          <article class="t-card">
+            <div class="t-card__top">
+              <span class="badge badge--cyan">Check-In Open</span>
+              <span class="chip">S-Tier Major</span>
+            </div>
+            <h3>Cyberstrike World Invitational</h3>
+            <p class="t-card__desc">Francis-chu double-elimination circuit for premier international squads.</p>
+            <dl class="t-card__stats">
+              <div><dt>Prize Pool</dt><dd class="accent">$500,000</dd></div>
+              <div><dt>Teams</dt><dd>16/16 Full</dd></div>
+              <div><dt>Format</dt><dd>Double Elim</dd></div>
+              <div><dt>Starts</dt><dd>Tomorrow 18:00</dd></div>
+            </dl>
+            <div class="t-card__foot">
+              <span class="t-card__note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6z"/></svg>
+                Official Riot Vanguard integration
+              </span>
+              <a class="btn btn--secondary btn--sm" href="contact.html#contact-form">Register Squad</a>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <div class="t-card__top">
+              <span class="badge badge--violet">A-Tier Semi-Pro</span>
+              <span class="chip chip--cyan">15 Slots Remaining</span>
+            </div>
+            <h3>Midnight Apex: Duo Showdown</h3>
+            <p class="t-card__desc">Rank-based rookie ladder. Open to duo partnerships with ranked-combat credentials.</p>
+            <dl class="t-card__stats">
+              <div><dt>Prize Pool</dt><dd class="accent">$50,000</dd></div>
+              <div><dt>Teams</dt><dd>48/64 Reg</dd></div>
+              <div><dt>Format</dt><dd>Free Lvl 20+</dd></div>
+              <div><dt>Starts</dt><dd>In 2 Days</dd></div>
+            </dl>
+            <div class="t-card__foot">
+              <span class="t-card__note">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 7.6-7 9-4-1.4-7-4.5-7-9V6z"/></svg>
+                AA Pro Mode (2 Players)
+              </span>
+              <a class="btn btn--primary btn--sm" href="contact.html#contact-form">Join Tournament</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Combat titles -->
+    <section class="section" id="titles">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Arena Combat Database</p>
+            <h2>Featured Combat Titles</h2>
+            <p class="section-head__lead">
+              Hand-picked AAA releases from the live catalog — all playable on GAMEZONE hardware profiles.
+            </p>
+          </div>
+          <span class="chip">Displaying 6 of 1,450 catalog entries</span>
+        </div>
+
+        <div class="game-grid">
+          <article class="game-card">
+            <div class="game-card__media">
+              <img src="assets/images/game-syndicate-wars-2099.jpg" alt="Cover art for Syndicate Wars 2099: armored mercenaries advancing through a ruined neon city" loading="lazy">
+              <span class="game-card__tag badge badge--cyan">Free to Play</span>
+            </div>
+            <div class="game-card__body">
+              <div class="game-card__tags">
+                <span class="chip">FPS</span><span class="chip">Competitive</span><span class="chip">Ray-Tracing</span>
+              </div>
+              <h3>Syndicate Wars 2099</h3>
+              <p class="game-card__desc">High-stakes corporate espionage squad combat with precision ballistics and recoil control.</p>
+              <div class="game-card__foot">
+                <span>Standard Edition</span>
+                <strong>Free</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-card__media">
+              <img src="assets/images/game-astral-revenant.jpg" alt="Cover art for Astral Revenant: a hooded spectral knight glowing with violet runes" loading="lazy">
+              <span class="game-card__tag badge badge--amber">Hot Release</span>
+            </div>
+            <div class="game-card__body">
+              <div class="game-card__tags">
+                <span class="chip">Soulslike</span><span class="chip">Dark Fantasy</span><span class="chip">Co-op</span>
+              </div>
+              <h3>Astral Revenant</h3>
+              <p class="game-card__desc">Conquer celestial abominations in an unforgiving void realm with responsive parries.</p>
+              <div class="game-card__foot">
+                <span>Standard Edition</span>
+                <strong>$38.99</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-card__media">
+              <img src="assets/images/game-quantum-drift.jpg" alt="Cover art for Quantum Drift: a hovercar trailing cyan light through a neon tunnel" loading="lazy">
+              <span class="game-card__tag badge badge--violet">VR Support</span>
+            </div>
+            <div class="game-card__body">
+              <div class="game-card__tags">
+                <span class="chip">Racing</span><span class="chip">Synthwave</span><span class="chip">Arcade</span>
+              </div>
+              <h3>Quantum Drift</h3>
+              <p class="game-card__desc">Zero-gravity line-sweeping drift circuits synced to a reactive modular synth soundtrack.</p>
+              <div class="game-card__foot">
+                <span>Standard Edition</span>
+                <strong>$19.99</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-card__media">
+              <img src="assets/images/game-nexus-legion-reforged.jpg" alt="Cover art for Nexus Legion Reforged: champions clashing in a glowing hexagonal arena" loading="lazy">
+              <span class="game-card__tag badge badge--cyan">Free to Play</span>
+            </div>
+            <div class="game-card__body">
+              <div class="game-card__tags">
+                <span class="chip">MOBA</span><span class="chip">Strategy</span><span class="chip">Esports</span>
+              </div>
+              <h3>Nexus Legion: Reforged</h3>
+              <p class="game-card__desc">The apex sci-fi fantasy tactical arena featuring complete cross-play ladders.</p>
+              <div class="game-card__foot">
+                <span>20K Playing</span>
+                <strong>Free</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-card__media">
+              <img src="assets/images/game-hypersteel-mecha-combat.jpg" alt="Cover art for Hypersteel: a chrome battle mech with a glowing reactor core in a hangar" loading="lazy">
+              <span class="game-card__tag badge badge--amber">16% Off</span>
+            </div>
+            <div class="game-card__body">
+              <div class="game-card__tags">
+                <span class="chip">Mech</span><span class="chip">PVP Arena</span><span class="chip">MMO</span>
+              </div>
+              <h3>Hypersteel: Mecha Combat</h3>
+              <p class="game-card__desc">Modular frame customisation with 360-degree freedom thruster dogfights.</p>
+              <div class="game-card__foot">
+                <span>Competitive Fix</span>
+                <strong>$49.99</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-card__media">
+              <img src="assets/images/game-hexa-blade.jpg" alt="Cover art for Hexa Blade: a masked cyber-ninja leaping with glowing energy blades" loading="lazy">
+              <span class="game-card__tag badge badge--violet">Indie Hit</span>
+            </div>
+            <div class="game-card__body">
+              <div class="game-card__tags">
+                <span class="chip">Roguelike</span><span class="chip">Hack &amp; Slash</span><span class="chip">Action</span>
+              </div>
+              <h3>Hexa Blade</h3>
+              <p class="game-card__desc">Split-second bullet deflection in procedurally generated cyber-floor towers.</p>
+              <div class="game-card__foot">
+                <span>Indie Hit</span>
+                <strong>$14.99</strong>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Leaderboard -->
+    <section class="section" id="leaderboard">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Global Standings // Season 4</p>
+            <h2>Hall of Radiance</h2>
+            <p class="section-head__lead">
+              Real-time MMR recalculation across 2,410 qualified operators. Updated every 60 seconds.
+            </p>
+          </div>
+          <a class="btn btn--ghost btn--sm" href="contact.html#contact-form">Join the Ladder</a>
+        </div>
+
+        <div class="podium">
+          <article class="podium-card">
+            <div class="podium-card__top">
+              <span class="podium-card__rank">#02</span>
+              <span class="badge">Silver Tier Apex</span>
+            </div>
+            <div class="podium-card__player">
+              <img class="podium-card__avatar" src="assets/images/avatar-valkyrie.jpg" alt="Player portrait of Valkyrie_99" loading="lazy">
+              <div>
+                <p class="podium-card__name">Valkyrie_99</p>
+                <p class="podium-card__clan">Fnatic Cyber • Chrono Specialist</p>
+              </div>
+            </div>
+            <dl class="podium-stats">
+              <div><dt>Rating</dt><dd>3,380</dd></div>
+              <div><dt>Win Rate</dt><dd>79.1%</dd></div>
+            </dl>
+            <p class="podium-card__streak">Streak <strong>14 Wins</strong></p>
+          </article>
+
+          <article class="podium-card podium-card--first">
+            <div class="podium-card__top">
+              <span class="podium-card__rank">#01</span>
+              <span class="badge badge--cyan">Season 4 MVP</span>
+            </div>
+            <div class="podium-card__player">
+              <img class="podium-card__avatar" src="assets/images/avatar-vort3x.jpg" alt="Player portrait of Vort3x_God wearing a glowing visor helmet" loading="lazy">
+              <div>
+                <p class="podium-card__name">Vort3x_God</p>
+                <p class="podium-card__clan">Independent Overlord • Mantis Chrono-Surge</p>
+              </div>
+            </div>
+            <dl class="podium-stats">
+              <div><dt>Hyper ELO</dt><dd>3,420</dd></div>
+              <div><dt>Win Efficiency</dt><dd>82.4%</dd></div>
+            </dl>
+            <p class="podium-card__streak">Rank <strong>Grandmaster Emperor</strong></p>
+          </article>
+
+          <article class="podium-card">
+            <div class="podium-card__top">
+              <span class="podium-card__rank">#03</span>
+              <span class="badge">Bronze Tier Apex</span>
+            </div>
+            <div class="podium-card__player">
+              <img class="podium-card__avatar" src="assets/images/avatar-shadowkiller.jpg" alt="Player portrait of Shadow_Killer wearing a masked hood" loading="lazy">
+              <div>
+                <p class="podium-card__name">Shadow_Killer</p>
+                <p class="podium-card__clan">Team Liquid • Recon Tactician</p>
+              </div>
+            </div>
+            <dl class="podium-stats">
+              <div><dt>Rating</dt><dd>3,310</dd></div>
+              <div><dt>Win Rate</dt><dd>77.8%</dd></div>
+            </dl>
+            <p class="podium-card__streak">Streak <strong>8 Wins</strong></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arcade -->
+    <section class="section" id="arcade">
+      <div class="container">
+        <div class="arcade-banner">
+          <img class="arcade-banner__bg" src="assets/images/arcade-neon.jpg" alt="" loading="lazy">
+          <div class="arcade-banner__scrim" aria-hidden="true"></div>
+          <div class="arcade-banner__content">
+            <span class="badge badge--violet">Node-Net Arcade Active</span>
+            <h2>Gamezone Cyber Arcade</h2>
+            <p class="text-dim">
+              Instant play directly in your browser. Earn platform G-Tokens, climb the weekly
+              arcade leaderboard and unlock exclusive cosmic skins with zero download latency.
+            </p>
+            <div class="feature-chips">
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h8l-1 8 10-12h-8l1-8z"/></svg>
+                0ms downtime
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M9.5 9.8h3.6a1.7 1.7 0 0 1 0 3.4h-2.2a1.7 1.7 0 0 0 0 3.4h3.6"/></svg>
+                Instant G-Token payouts
+              </span>
+              <span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v6a5 5 0 0 1-10 0V4z"/><path d="M7 6H4a1 1 0 0 0-1 1v2a3 3 0 0 0 3 3M17 6h3a1 1 0 0 1 1 1v2a3 3 0 0 1-3 3"/></svg>
+                Weekly prestige rewards
+              </span>
+            </div>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="contact.html#contact-form">
+                Create Free Account
+                <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <a class="btn btn--ghost" href="about.html">About the Arena</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stat-strip" aria-label="Platform statistics">
+      <div class="container stat-strip__grid">
+        <div class="stat">
+          <p class="stat__value">2.4M</p>
+          <p class="stat__label">Active squads online</p>
+        </div>
+        <div class="stat">
+          <p class="stat__value"><em>$</em>1.8M</p>
+          <p class="stat__label">Total bounties paid to contenders</p>
+        </div>
+        <div class="stat">
+          <p class="stat__value">142</p>
+          <p class="stat__label">Tournaments scheduled</p>
+        </div>
+        <div class="stat">
+          <p class="stat__value"><em>~</em>18ms</p>
+          <p class="stat__label">Average network latency</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="cta-band">
+      <div class="container cta-band__inner">
+        <div>
+          <h2>Ready to Enter the Arena?</h2>
+          <p>Create a free profile, join a squad and play your first sanctioned match today. No fees, no hardware requirements.</p>
+        </div>
+        <a class="btn btn--primary" href="contact.html#contact-form">
+          Get Started — Free
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <svg class="brand__mark" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+              <path d="M16 2.5 28 9.25v13.5L16 29.5 4 22.75V9.25Z" stroke="#00F0FF" stroke-width="1.6"/>
+              <path d="M16 8.5 22.5 12.25v7.5L16 23.5l-6.5-3.75v-7.5Z" stroke="#8B5CF6" stroke-width="1.4"/>
+              <circle cx="16" cy="16" r="2.3" fill="#00F0FF"/>
+            </svg>
+            <span class="brand__name">Gamezone</span>
+          </a>
+          <p>The cybernetic esports arena. Sanctioned tournaments, a global competitive ladder and instant browser arcade — built for contenders.</p>
+          <div class="footer-social">
+            <a href="https://discord.com/" target="_blank" rel="noopener">
+              Discord
+              <span class="visually-hidden">(opens in a new tab)</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4 11 13"/><path d="M18 14v5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19V8a1.5 1.5 0 0 1 1.5-1.5H10"/></svg>
+            </a>
+            <a href="https://www.twitch.tv/" target="_blank" rel="noopener">
+              Twitch
+              <span class="visually-hidden">(opens in a new tab)</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4 11 13"/><path d="M18 14v5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19V8a1.5 1.5 0 0 1 1.5-1.5H10"/></svg>
+            </a>
+            <a href="https://steamcommunity.com/" target="_blank" rel="noopener">
+              Steam
+              <span class="visually-hidden">(opens in a new tab)</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4 11 13"/><path d="M18 14v5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19V8a1.5 1.5 0 0 1 1.5-1.5H10"/></svg>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener">
+              X / Twitter
+              <span class="visually-hidden">(opens in a new tab)</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4 11 13"/><path d="M18 14v5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19V8a1.5 1.5 0 0 1 1.5-1.5H10"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Footer navigation">
+          <h2>Navigate</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Explore sections">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="index.html#tournaments">Tournaments</a></li>
+            <li><a href="index.html#titles">Combat Titles</a></li>
+            <li><a href="index.html#leaderboard">Hall of Radiance</a></li>
+            <li><a href="index.html#arcade">Cyber Arcade</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Support links">
+          <h2>Support</h2>
+          <ul>
+            <li><a href="contact.html#contact-form">Contact form</a></li>
+            <li><a href="contact.html#faq">Frequently asked questions</a></li>
+            <li><a href="mailto:support@gamezone.example">support@gamezone.example</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> GAMEZONE Interactive Technologies Ltd. All rights reserved.</p>
+        <p>Built for the arena. Season 04 protocol active.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
